@@ -5,8 +5,8 @@ import mapboxgl from 'mapbox-gl';
 import { Button } from '@/components/ui/button';
 import { Play } from 'lucide-react';
 
-//mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || '';
-mapboxgl.accessToken='pk.eyJ1IjoieW91eWVlMDgwNyIsImEiOiJjbXNpbmV6cHEwY3d3Mnlwdm55ZDd5dWdqIn0.6zhv4FHqFI7LixdiZR6K4w'; 
+
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
 interface Place {
   name: string;
