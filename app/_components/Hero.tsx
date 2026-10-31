@@ -22,21 +22,21 @@ const guideVideos = [
   {
     id: 0,
     title: '로그인 & 로그아웃',
-    videoSrc: 'https://www.youtube.com/embed/PIUnaZpvcb8', // 1번 영상
+    videoSrc: 'https://www.youtube.com/embed/PIUnaZpvcb8?autoplay=1', // 1번 영상
     thumbnailSrc: '/sample1.png', 
     thumbnailAlt: '로그인 및 로그아웃 가이드 영상',
   },
   {
     id: 1,
     title: '여행 생성 시작하기',
-    videoSrc: 'https://www.youtube.com/embed/ie9JTHTbVyQ', // 2번 영상
+    videoSrc: 'https://www.youtube.com/embed/ie9JTHTbVyQ?autoplay=1', // 2번 영상
     thumbnailSrc: '/sample2.png', 
     thumbnailAlt: '여행 생성 시작하기 가이드 영상',
   },
   {
     id: 2,
     title: '일정표 확인하기',
-    videoSrc: 'https://www.youtube.com/embed/PFnJSiMAQR0', // 3번 영상
+    videoSrc: 'https://www.youtube.com/embed/PFnJSiMAQR0?autoplay=1', // 3번 영상
     thumbnailSrc: '/sample3.png', 
     thumbnailAlt: '일정표 확인하기 가이드 영상',
   },
