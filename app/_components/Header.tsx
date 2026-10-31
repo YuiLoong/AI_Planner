@@ -18,7 +18,7 @@ function Header() {
   return (
     <div className="flex justify-between items-center p-4 shadow-sm bg-white relative z-10 border-b border-border/40">
       <Link href="/" className="flex gap-2 items-center hover:opacity-90 transition-opacity">
-        <Image src={'/logo.svg'} alt="logo" width={30} height={30} />
+        <Image src={'/Logo.svg'} alt="logo" width={30} height={30} />
         <h2 className="font-bold text-2xl">AI 여행 플래너</h2>
       </Link>
 
