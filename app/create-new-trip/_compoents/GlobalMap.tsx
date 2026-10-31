@@ -8,6 +8,7 @@ import { useJsApiLoader } from '@react-google-maps/api';
 import { useTripDetailInfo } from '@/app/Provider';
 import { Button } from '@/components/ui/button';
 import { Play, Eye, Map as MapIcon, Square, MapPin, ArrowRight, ChevronLeft, ChevronRight, ChevronDown, ChevronUp, RotateCcw, CheckCircle2 } from 'lucide-react';
+export const maxDuration = 60;
 
 const GOOGLE_MAPS_LIBRARIES: ("places" | "geometry")[] = ['places', 'geometry'];
 

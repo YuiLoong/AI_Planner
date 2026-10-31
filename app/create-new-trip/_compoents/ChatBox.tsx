@@ -13,6 +13,7 @@ import { useMutation } from 'convex/react'
 import { api } from '@/convex/_generated/api'
 import { useTripDetailInfo, useUserDetail } from '@/app/Provider'
 import {v4 as uuidv4} from 'uuid'; 
+export const maxDuration = 60;
 
 type Message={
     role:string,

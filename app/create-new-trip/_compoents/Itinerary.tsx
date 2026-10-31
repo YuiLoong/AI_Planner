@@ -13,6 +13,7 @@ import { api } from '@/convex/_generated/api';
 import { v4 as uuidv4 } from 'uuid';
 import { fetchTripImageUrl } from './ChatBox'; 
 import axios from 'axios';
+export const maxDuration = 60;
 
 function Itinerary({ isReadonly = false, onSendEmail }: { isReadonly?: boolean; onSendEmail?: () => void }) {
   const { tripDetailInfo, setTripDetailInfo } = useTripDetailInfo() as any;

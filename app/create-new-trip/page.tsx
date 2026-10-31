@@ -12,6 +12,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import GlobalMap from './_compoents/GlobalMap';
+export const maxDuration = 60;
 
 function createNewTrip () {
   const [activeIndex, setActiveIndex] = useState(1);

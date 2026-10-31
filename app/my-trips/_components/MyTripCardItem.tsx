@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { CalendarIcon, Pin } from 'lucide-react';
 import { useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
+export const maxDuration = 60;
 
 type Props = {
   trip: Trip;

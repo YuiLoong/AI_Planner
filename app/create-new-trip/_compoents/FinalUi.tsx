@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button'
 import { Globe2 } from 'lucide-react'
 import React from 'react'
+export const maxDuration = 60;
 
 function FinalUi({ viewTrip, isLoading }: any) {
     return (
