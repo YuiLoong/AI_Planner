@@ -132,22 +132,15 @@ export function HeroVideoDialog({
               <motion.button className="absolute -top-16 right-0 rounded-full bg-neutral-900/50 p-2 text-xl text-white ring-1 backdrop-blur-md dark:bg-neutral-100/50 dark:text-black">
                 <XIcon className="size-5" />
               </motion.button>
+              {/* 수정 후 모습 */}
               <div className="relative isolate z-[1] size-full overflow-hidden rounded-2xl border-2 border-white">
-                {/* <iframe
+                <iframe
                   src={videoSrc}
                   title="Hero Video player"
                   className="size-full rounded-2xl"
                   allowFullScreen
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                ></iframe> */}
-                <video
-                  src={videoSrc}
-                  className="size-full rounded-2xl"
-                  controls   // 재생/일시정지 버튼, 시간 바 등 컨트롤러 표시
-                  autoPlay   // 팝업이 열릴 때 자동 재생
-                  muted      // 크롬 등 브라우저 정책상 자동재생을 위해 필요할 수 있음
-                  playsInline
-                />
+                ></iframe>
               </div>
             </motion.div>
           </motion.div>
